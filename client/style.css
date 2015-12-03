@@ -1,0 +1,88 @@
+/* CSS declarations go here */
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html {
+  position: relative;
+  min-height: 100%;
+  overflow-y: scroll;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #993333;
+  color: #fff;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+
+
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 60px 15px 0;
+}
+.container .text-muted {
+  color: #DCD8D8;
+  margin: 20px 0;
+}
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+code {
+  font-size: 80%;
+}
+.main {
+  margin-top: 50px;
+}
+/*
+  Hero Stuff
+*/
+
+.hero {
+  background: url("/cafe.jpg") no-repeat center center;
+  background-size: cover;
+  max-height: 100%;
+  height: 95vh;
+  color: #fff;
+}
+.hero h1 {
+  color: #fff;
+  font-size: 3rem;
+  line-height: 1.5em;
+  letter-spacing: -0.025em;
+  font-weight: 500;
+}
+.hero p {
+  color: #fff;
+  line-height: 1.75em;
+  font-weight: 150;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.hero-main {
+  border-radius: 5px;
+  padding: 3rem;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: relative;
+}
+
+@media (min-width: 992px){
+  .hero-main {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-70%);
+  }
+}

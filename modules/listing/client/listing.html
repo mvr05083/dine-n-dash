@@ -1,0 +1,20 @@
+<template name="listing">
+  <div class="listings">
+    <table class="table">
+      <thead>
+        <th>Day</th>
+        <th>Time</th>
+        <th>Transactions</th>
+      </thead>
+      <tbody>
+      {{#each getAgg}}
+      <tr>
+        <td>{{ convertDowToDay intervalTime.dayofweek }} ({{ intervalTime.dayofweek}})</td>
+        <td>{{ calcTime }}</td>
+        <td>{{ count }}</td>
+      </tr>
+      {{/each}}
+      </tbody>
+    </table>
+  </div>
+</template>

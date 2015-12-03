@@ -1,0 +1,9 @@
+.big {
+  margin-top: 1rem;
+  background-color: #FFF;
+  border-radius: 3px;
+  color: #444;
+  padding: 1rem;
+  font-weight: 700;
+  font-size: 24px;
+}

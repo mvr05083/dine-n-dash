@@ -1,0 +1,6 @@
+<template name="nextHour">
+  <h4>The best time to attend in the next hour is:</h4>
+  {{#each time}}
+    <span class="big">{{ calcTime intervalTime }}</span>
+  {{/each}}
+</template>

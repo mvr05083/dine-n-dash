@@ -1,0 +1,19 @@
+<head>
+  <title>Dine'N'Dash</title>
+  <link rel="icon" type="image/x-icon" href="/favicon.png" sizes="16x16 32x32">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+</body>
+
+<template name="layout">
+  {{> header }}
+  
+  <div class="main">
+    {{> Template.dynamic template=main }}
+  </div>
+
+  {{> footer }}
+</template>
